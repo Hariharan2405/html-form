@@ -1,0 +1,103 @@
+<!DocType html>
+<html>
+	<head>
+		<title>HTML_FORM</title>
+	
+	
+	</head>
+	
+	<body>
+		<section>
+			<div>
+				<form>
+					<fieldset>
+						<legend>Registration Form</legend>
+						<label for="fname">First name</label>
+						<input type="text" id="fname" name="fname" value="Hariharan" required > <br><br>
+						
+						<label for="mname">Middle name</label>
+						<input type="text" id="mname" name="mname" readonly > <br><br>
+						
+						<label for="lname">Last name</label>
+						<input type="text" id="lname" name="lname" placeholder="Hariharan"> <br><br>
+						
+						<label for="dob">D.O.B</label>
+						<input type="date" id="dob" name="dob"><br><br>
+						
+						<label for="wob">Slect a week</label>
+						<input type="week" id="wob" name="wob"><br><br>
+						
+						<label for="mob">Slect your birth month</label>
+						<input type="month" id="mob" name="mob" min="1990-02"><br><br>
+						
+						<label for="bd">Birth Datw with time</label>
+						<input type="datetime-local" id="bd" name="dob"><br>
+						
+						<p>Select your gender</p>
+						<input type="radio" id="male" name="gender" value="male" >
+						<label for="male">Male</label>
+						
+						<input type="radio" id="female" name="gender" value="female" >
+						<label for="female">Female</label>
+						
+						<input type="radio" id="transgender" name="gender" value="tansgender"  required>
+						<label for="transgender">Transgender</label>
+						
+						<p>Languages Known</p>
+						<input type="checkbox" id="tamil" name="language" value="tamil" >
+						<label for="tamil">Tamil</label>
+						
+						<input type="checkbox" id="english" name="language" value="english" >
+						<label for="english">English</label>
+						
+						<input type="checkbox" id="malayalam" name="language" value="malayalam" >
+						<label for="malayalam">Malayalam</label>
+
+						<input type="checkbox" id="hindi" name="language" value="hindi" >
+						<label for="hindi">Hindi</label><br><br>
+						
+						<label for="mail">Enter your mail id:</label>
+						<input type="email" id="mail" name="mail"><br><br>
+						
+						<label for="no">Enter a number :</label>
+						<input type="number" id="no" name="no" min="1" max="30"><br><br>
+						
+						<label for="mbn">Enter your mobile nomber</label>
+						<input type="tel" id="mbn" name="mbn"><br><br>
+						
+						<label for="pwd">Enter your password</label>
+						<input type="password" id="pwd" name="pwd"><br><br>
+						
+						<label for="clr">select a color</label>
+						<input type="color" id="clr" name="clr"><br><br>
+						
+						<label for="jd">select a date for interview</label>
+						<input type="date" id="jd" name="jd" min="2023-02-01" max="2023-05-30" ><br><br>
+						
+						<label for="files">select a file</label>
+						<input type="file" id="files" name="files"><br><br>
+						
+						<label for="ran">Set range:</label>
+						<input type="range" id="ran" name="ran" min="1" max="300" value="150"><br><br>
+						
+						<label for="web">URL</label>
+						<input type="url" id="web" name="web"><br><br>
+						
+						<label for="sr">search</label>
+						<input type="search" id="sr" name="sr"><br><br>
+						
+						<input type="image" src="image/fox.jpeg" alt="Sorry....." width="30" height="35">
+						
+						<input type="button" onclick="alert('Thank you for trying')" value="Try me"><br>
+						
+						<input type="submit" value="submit">
+						<input type="reset">
+						
+						
+				
+					</fieldset>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>
